@@ -1,0 +1,71 @@
+.snapshot-main {
+  width: 60%;
+  margin-left: 100px;
+}
+.snapshot-main h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+  margin-left: 15px;
+}
+.snapshot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.snapshot-alljobs,
+.snapshot-eligiblejobs,
+.snapshot-appliedjobs {
+  background-image: url(../../images/Iconbg.png);
+  background-repeat: no-repeat;
+  background-position: 26px 11px;
+  background-size: 40px 40px;
+  width: 12rem;
+  height: 4rem;
+  padding: 0.1rem;
+  background-color: #fff;
+  border-radius: 7.5px;
+}
+.snapshot-alljobs p:first-child,
+.snapshot-eligiblejobs p:first-child,
+.snapshot-appliedjobs p:first-child {
+  padding: 5px 0 0px 20px;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  color: var(--clr-black);
+}
+.snapshot p {
+  /* padding: 5px 0 5px 20px; */
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--clr-primary-4);
+}
+ .snapshot-alljobs p:last-child {
+  background-image: url(../../images/eJobs.png);
+  background-repeat: no-repeat;
+  background-position: 35px 0px;
+  background-size: 20px 20px;
+}
+.snapshot-eligiblejobs p:last-child {
+  background-image: url(../../images/eJobs.png);
+  background-repeat: no-repeat;
+  background-position: 35px 0px;
+  background-size: 20px 20px;
+}
+.snapshot-appliedjobs p:last-child {
+  background-image: url(../../images/appliedJobs.png);
+  background-repeat: no-repeat;
+  background-position: 35px 0px;
+  background-size: 20px 20px;
+}
+.snapshot div.arrow{
+  background-image: url(../../images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 163px 25px;
+  background-size: 15px 15px;
+}
